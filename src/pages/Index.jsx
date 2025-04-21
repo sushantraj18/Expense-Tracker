@@ -1,8 +1,11 @@
 import React from 'react'
+import { ExpenseProvider } from '../context/ExpenseContext'
 
 function Index() {
   return (
-    <div>Index</div>
+    <ExpenseProvider>
+        
+    </ExpenseProvider>
   )
 }
 
